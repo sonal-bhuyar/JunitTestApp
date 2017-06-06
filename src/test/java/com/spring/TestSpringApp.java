@@ -31,4 +31,10 @@ public class TestSpringApp {
     public void testGetCount() {
         Assert.assertEquals(5, springApp.getCount());
     }
+
+    @Test
+    public void testGetCountNotEqual() {
+        System.out.println("..............");
+        Assert.assertNotEquals(3, springApp.getCount());
+    }
 }
