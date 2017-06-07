@@ -25,6 +25,7 @@ public class TestSampleApp {
         System.out.println("testing print");
         String str = app.printHello();
         Assert.assertEquals(str, "Hello World");
+        Assert.assertNotEquals(str, "Hi World");
 
     }
 
