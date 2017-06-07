@@ -36,6 +36,7 @@ public class TestSampleApp {
         String date = app.getTodaysDate();
         Assert.assertEquals(date, "06/06/2017");
         Assert.assertNotEquals(date, new Date());
+        Assert.assertNotEquals(date, "02/06/2017");
     }
 
     @After
