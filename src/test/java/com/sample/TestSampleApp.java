@@ -33,7 +33,7 @@ public class TestSampleApp {
 
         System.out.println("testing date");
         String date = app.getTodaysDate();
-        Assert.assertEquals(date, "02/06/2017");
+        Assert.assertEquals(date, "06/06/2017");
         Assert.assertNotEquals(date, new Date());
     }
 
